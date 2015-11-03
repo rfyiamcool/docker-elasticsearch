@@ -16,5 +16,7 @@ RUN \
 
 EXPOSE 9200 9300
 
-CMD /opt/elasticsearch/bin/elasticsearch
+COPY ./entrypoint.sh /root/entrypoint.sh
+ENTRYPOINT ["/root/entrypoint.sh"]
+
 
