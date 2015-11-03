@@ -17,4 +17,3 @@ docker run -d --name elasticsearch -p 9200:9200 -v /path/to/myconfig.file:/opt/e
 docker run -d --name elasticsearch -p 9200:9200 -v /data:/opt/elasticsearch/data xiaorui/elasticsearch
 ```
 
-
